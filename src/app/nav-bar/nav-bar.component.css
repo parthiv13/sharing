@@ -1,0 +1,18 @@
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 0 #d3d3d3;
+}
+.file-utilities {
+    widows: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input-search {
+    margin-left: 17px;
+    width: 200px;
+}
+

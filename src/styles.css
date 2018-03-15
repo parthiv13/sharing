@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    padding-right: 100px;
+    color: #37474F;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn {
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    height: 40px;
+    border-radius: 40px;
+    width: 130px;
+    text-shadow: 0;
+    border: 1px solid #E7DFC3;
+    padding: 8px;
+    margin: 4px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: all 0.25s;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #4286f4;
+    border: 1px solid #4286f4;
+}
+.btn-primary {
+    background-color: #4286f4;
+    color: #fff;
+}
+.btn-secondary {
+    background-color: transparent;
+    color: #17181F;
+}
+.btn:active {
+    transform: scale(0.9, 0.9)
+}
+input {
+    outline: none;
+    height: 22px;
+    border-radius: 40px;
+    width: 140px;
+    text-shadow: 0;
+    border: 1px solid #E7DFC3;
+    padding: 8px;
+    background-color: transparent;
+    margin: 4px;
+    transition: 0.25s all ease;
+}
+input:hover {
+    color: #4286f4;
+    border: 1px solid #4286f4;
+}
+input::placeholder {
+    font-weight: 600;
+    text-indent: 6px;
+}
+input::placeholder:hover {
+    border: 1px solid #4286f4;
+}
+input:placeholder-shown {
+    font-weight: 600;
+    text-indent: 6px;
+}
+img {
+    background-repeat: no-repeat;
+    background-size: contain;
+}

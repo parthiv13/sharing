@@ -1,0 +1,35 @@
+:host {
+    width: 20%;
+  }
+.navigation-pane {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    color: #4F5163;
+    box-shadow: 1px 0px 0 #d3d3d3;
+}
+.bookmarks {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.bookmark-header {
+    text-align: start;
+    padding: 20px;
+    padding-left: 20px;
+    color: #777885;
+}
+.bookmark-body {
+    margin: 0;
+    padding: 0;
+}
+.bookmark {
+    margin: 0;
+    padding: 15px;
+    padding-left: 50px;
+    cursor: pointer;
+    transform: all .25s ease;
+}
+.bookmark:hover {
+    color: #4286f4;
+}

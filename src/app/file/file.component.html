@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="header">
+    <div class="files-body">
+      <div class="cards">
+        <div *ngFor="let file of files" class="card transition">
+          <img src="http://localhost:8080/static/cover.jpg" alt="" class="card-img">
+          <div class="card_circle transition"></div>
+          <div class="card-description">{{file.name}}</div>
+          <div class="card-file-download"><a href="#" class="download">DOWNLOAD</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
