@@ -3,7 +3,11 @@
 
   </div>
   <div class="file-utilities">
-    <button class="btn btn-primary">Upload</button>
+    <!--<form action="/upload" enctype="multipart/form-data" method="post">-->
+      <input type="file" name="userPhoto" multiple />
+      <button class="btn btn-primary" type="file" multiple>Upload</button>
+    <!--</form>-->
+
     <button class="btn btn-secondary">New Folder</button>
     <input class="input-search" placeholder="Search Keyword">
   </div>
